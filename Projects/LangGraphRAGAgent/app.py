@@ -21,7 +21,7 @@ if st.button("Get Answer") and uploaded_files and query:
             if file.name.endswith(".pdf"):
                 extracted_texts.append(extract_text_from_pdf(file))
             else:
-                extracted_texts.sppend(extract_text_from_image(file))
+                extracted_texts.append(extract_text_from_image(file))
         combined_text = "/n".join(extracted_texts)
         answer = generate_answer(query, combined_text)
         st.success("Done!")
