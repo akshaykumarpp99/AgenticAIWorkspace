@@ -1,0 +1,7 @@
+{
+  "dependencies":["."],
+  "graph":{
+    "open_ai_agent": "./LangGraph.Debugging.ipnyb"
+  },
+  "env": "../.env"
+}

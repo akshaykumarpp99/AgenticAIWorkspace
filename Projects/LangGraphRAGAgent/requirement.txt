@@ -1,0 +1,12 @@
+streamlit
+langchain
+langchain-openai
+langchain-core
+langchain-community
+langgraph
+openai
+pymupdf
+pytesseract
+pillow
+fiass-cpu
+tqdm
